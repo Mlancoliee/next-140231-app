@@ -1,5 +1,3 @@
-import type { NextApiRequest, NextApiResponse } from "next";
-
 export async function POST(request: Request) {
   const data = await request.formData();
   return Response.json({
@@ -8,7 +6,7 @@ export async function POST(request: Request) {
   });
 }
 
-
+// import type { NextApiRequest, NextApiResponse } from "next";
 
 // type Data = {
 //   name: string;
